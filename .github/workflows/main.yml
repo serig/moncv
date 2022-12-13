@@ -26,7 +26,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install resumed jsonresume-theme-caffeine
+    - run: npm install
     - run: npx resumed render resume.json --theme caffeine
     - run: mkdir public
     - run: mv resume.html public/index.html
