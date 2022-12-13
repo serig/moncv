@@ -29,8 +29,8 @@ jobs:
     - run: npm install
     - run: npx resumed render resume.json --theme caffeine
     - run: mkdir public
-    - run: mv resume.html public/index.html
+    - run: mv resume.html ./index.html
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
-        folder: public # The folder the action should deploy.
+        folder: ./ # The folder the action should deploy.
