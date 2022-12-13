@@ -2,13 +2,20 @@
   
   
     "dependencies": {
-
+  
+      
+    "jsonresume-theme-caffeine": "^2.0.1",
+  
+      
     "jsonresume-theme-mooser": "^0.2.3",
   
+      
     "jsonresume-theme-stackoverflowed": "^1.1.2",
   
+      
     "resume-cli": "^2.0.0",
   
+      
     "resumed": "^1.0.3"
   
     }
