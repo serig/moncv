@@ -294,6 +294,12 @@
       ]
     }
   ],
+  "references": [
+    {
+      "name": "Fallou DIA",
+      "reference": "bon stagiaire, très investi dans le travail avec un bon niveau de connaissance de la programmation WEB."
+    }
+  ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
