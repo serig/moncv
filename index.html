@@ -1,0 +1,699 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Serigne NDIAYE</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #f8f8f8;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  margin: 0; }
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px; }
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 11px; }
+
+blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 28px;
+         column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+@page {
+  size: A4; }
+
+.container {
+  padding-top: 20px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #56817A; }
+
+.summary {
+  margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817A;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word; }
+
+.right-column {
+  width: auto;
+  overflow: hidden; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+@media print {
+  body {
+    margin: 0; }
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px; }
+  .info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle; }
+    .info-tag-container .fa.fa-map-marker {
+      font-size: 16px; }
+    .info-tag-container .fa.fa-mobile {
+      font-size: 18px; }
+    .info-tag-container .fa.fa-envelope-o {
+      font-size: 12px; }
+    .info-tag-container .fa.fa-desktop {
+      font-size: 11px; }
+    .info-tag-container .fa.fa-external-link {
+      width: auto;
+      font-size: inherit;
+      vertical-align: text-top; }
+  .info-tag-container .info-text {
+    font-size: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 139px; }
+
+.references-container .fa {
+  font-size: 14px; }
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header pull-left">
+			        <h1>Serigne NDIAYE</h1>
+			        <h2>Développeur Fullstack JAVA/Angular/Python</h2>
+			    </div>
+			    <div class="profile-pic pull-right">
+			        <img src="" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">49 rue des étudiants<br/>Courbevoie Île de France 92400</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-envelope-o"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="http://serigne.ndiaye.com" target="_blank">
+					                        sasu.pouye@gmail.com <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					
+					
+					                         <div class="info-tag-container">
+					                             <i class="fa fa-twitter"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://twitter.com/serigneddm" target="_blank">
+					                                         @serigneddm <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>                        <div class="info-tag-container">
+					                            <i class="fa fa-linkedin-square"></i>
+					                        
+					                                <h6 class="info-text">
+					                                    <a href="https://www.linkedin.com/in/serigne-ndiaye-452a5490/" target="_blank">
+					                                        in/Serigne Ndiaye <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                    </a>
+					                                </h6>
+					                        </div></section>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Web Development</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>HTML</h6></li>
+					                            <li><h6>CSS</h6></li>
+					                            <li><h6>Javascript ( Angular JS, React JS, Node JS)</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Java J2EE</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Spring Boot, Spring MVC</h6></li>
+					                            <li><h6>Spring Security, JPA</h6></li>
+					                            <li><h6>Hibernate etc.</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Python</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Django, RestFramework</h6></li>
+					                            <li><h6>Flask, Numpy, Pandas</h6></li>
+					                            <li><h6>Matplotlib, Seaborn</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Deep Learning</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Pytorch</h6></li>
+					                            <li><h6>Tensorflow</h6></li>
+					                            <li><h6>Keras</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Base de données</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>NoSQL( MongoDB, Cassandra)</h6></li>
+					                            <li><h6>SQL (PostgreSQL, MySQL, MSSQL Server)</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Methodologie</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <h4 class="bold">Master</h4>
+					                    <ul class="minimal">
+					                            <li><h6>Agile Scrum</h6></li>
+					                            <li><h6>MLOPS, DEVOPS</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+					    <div class="container languages-container">
+					        <div class="title">
+					            <h3>Languages</h3>
+					            <div class="keyline"></div>
+					        </div>
+					        <ul class="minimal">
+					                <li>
+					                    <h6>English <em>(Fluent)</em></h6>
+					                </li>
+					        </ul>
+					    </div>
+					    <div class="container interests-container">
+					        <div class="title">
+					            <h3>Interests</h3>
+					            <div class="keyline"></div>
+					        </div>
+					            <section class="item">
+					                    <h4 class="bold">Sports</h4>
+					                    <ul class="minimal">
+					                            <li>Foot-ball</li>
+					                            <li>Athletisme</li>
+					                            <li>Taekwondo</li>
+					                    </ul>
+					            </section>
+					            <section class="item">
+					                    <h4 class="bold">Lecture</h4>
+					                    <ul class="minimal">
+					                            <li>Littérature</li>
+					                            <li>Histoire</li>
+					                    </ul>
+					            </section>
+					    </div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            </div>            <p class="summary">
+					                Serigne NDIAYE habite à Courbevoie. Il a été diplomé de l&#x27;AMSE (Aix-Marseille School of Economic) en ingénierie Data particulièrement en statistiques et économétrie et a complété le parcours en obtenant une certification en Machine learning depuis 2014. Il est auto-didacte en informatique et développement web!
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Mouna Académie
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">11/2022</span>
+					                        <span class="endDate"> - 04/2023</span>
+					                </h5>
+					            </div>
+					            <h4>Java J2EE developer - Fullstack (Java, Angular JS)</h4>
+					
+					            <p class="summary">Application School Management - Mouna Académie</p>
+					
+					            <ul>
+					                <li>Réalisation des specs et validation des users stories avec le PO</li>
+					                <li>Définition et priorisation du backlog pendant le Sprint Planning avec le PO</li>
+					                <li>Développement du back-end en Java version 11 et du front-end en Angular</li>
+					                <li>Configuration de la couche de sécurity de l&#x27;API avec Spring security ( JWT)</li>
+					                <li>Environnement: Agile Scrum</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Dialibah Shop
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2020</span>
+					                        <span class="endDate"> - 11/2020</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur web/Django/Python</h4>
+					
+					            <p class="summary">Développement API Rest - (e-commerce)</p>
+					
+					            <ul>
+					                <li>Spécification technique et fonctionnelle des besoins</li>
+					                <li>Réalisation du modèle de données</li>
+					                <li>Création des modèles et sérialisation avec Django Rest framework</li>
+					                <li>Configuration des CORS et sécurity de l&#x27;API</li>
+					                <li>Tests unitaires et d&#x27;intégration</li>
+					                <li>Environnement Devops</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Dialibah Shop
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">08/2020</span>
+					                        <span class="endDate"> - 11/2020</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur Python</h4>
+					
+					            <p class="summary">Développement d&#x27;un chatbot RASA-NLU - site ecommerce</p>
+					
+					            <ul>
+					                <li>Spécification technique et fonctionnelle des besoins</li>
+					                <li>Collecte des données nécessaires </li>
+					                <li>Configuration des modèles (les rules, les stories etc.)</li>
+					                <li>Connaissance des technique de preprocessing (stemming, tokenization, bag of words)</li>
+					                <li>Entrainement, test et validation du modèle avec Tensorflow/Keras</li>
+					                <li>Configuration des endpoints et déploiement du modèle en prod</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Projet d&#x27;apprentissage
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2018</span>
+					                        <span class="endDate"> - 01/2019</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur Python/Machine Learning</h4>
+					
+					            <p class="summary">Projet:  Déploiement Model Machine Learning en production</p>
+					
+					            <ul>
+					                <li>Collecte des données nécessaires </li>
+					                <li>Installation et configuration de l’environnement de développement</li>
+					                <li>Installation des packages requises avec le gestionnaire de package de Python (pip ou conda)</li>
+					                <li>Apprentissage et test du model</li>
+					                <li>Déploiement avec Flask et pickle en prod</li>
+					                <li>Technologie : HTML5, CSS3, Flask, Scikit Learn, Pandas, Numpy</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Touba-soft IT
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">10/2016</span>
+					                        <span class="endDate"> - 06/2017</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur web</h4>
+					
+					            <p class="summary">Application gestion de patients pour les cliniques</p>
+					
+					            <ul>
+					                <li>Spécification technique et fonctionnelle des besoins</li>
+					                <li>Modélisation UML </li>
+					                <li>Installation et configuration Symfony 2</li>
+					                <li>Gestion des entités et des relations avec doctrine</li>
+					                <li>Création de formulaire</li>
+					                <li>Implémentation du module gestion des rendez-vous et du module dashboard intégré</li>
+					                <li>Moteur de templating Twig / Jinja.</li>
+					                <li>Technologie: HTML5, CSS3, JavaScript(D3JS, ReactJS), Symfony 2</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Touba-soft IT
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">04/2016</span>
+					                        <span class="endDate"> - 09/2016</span>
+					                </h5>
+					            </div>
+					            <h4>Développeur web</h4>
+					
+					            <p class="summary">Application tableau de bord Logiciel gestion scolaire : Daara System, Développement module Tableau de bord data visualisation</p>
+					
+					            <ul>
+					                <li>Spécification technique et fonctionnelle des besoins</li>
+					                <li>Modélisation UML </li>
+					                <li>Back-end : Développement API Python / Django RestFramework / PostgreSQL</li>
+					                <li>Front end : Angular JS, D3 JS </li>
+					                <li>Tableau de bord dynamique et reporting avec d3.js, Angular JS</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        MALAKOFF MEDERIC
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">06/2015</span>
+					                        <span class="endDate"> - 11/2015</span>
+					                </h5>
+					            </div>
+					            <h4>Chargé d’études statistiques et techniques (CDD 6 mois)</h4>
+					
+					            <p class="summary">Santé et Prévoyance collective.</p>
+					
+					            <ul>
+					                <li>Établissement de comptes de résultats par année de survenance dans le cadre de gestion des risques (Arrêt de travail (Incapacité et Invalidité), Décès (Capital décès, Rente d’éducation, Rente de conjoint), Frais de Santé</li>
+					                <li>Data quality: Assurer la cohérence et l&#x27;exactitude des données avec Excel (tableaux croisés dynamique)</li>
+					                <li>Automatisation de calcul de PM, PE avec VBA, Excel</li>
+					                <li>Requête de données avec SAS/SQL</li>
+					                <li>Contribuer à la rédaction des  rapports et documents produit par les services souscription &amp; contrats destinés au service commercial</li>
+					                <li>Environnement de travail : VBA, Excel, Powerpoint, SAS, OCC, Sybase SQL</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container volunteer-container">
+					    <div class="title">
+					        <h3>Volunteer</h3>
+					        <div class="keyline"></div>
+					    </div>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    Association Lamp Fall Paris
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">01/2019</span>
+					                    <span class="endDate"> - 01/2022</span>
+					            </h5>
+					        </div>        <h5>Assistance</h5>
+					
+					        <p class="summary"> Aide au service administratif et à l&#x27;intégration social des immigrés</p>
+					
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    Pro Bono Lab
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">01/2015</span>
+					                    <span class="endDate"> - 01/2016</span>
+					            </h5>
+					        </div>        <h5>Developpeur</h5>
+					
+					        <p class="summary">Spécialiste du bénévolat, du mécénat de compétences</p>
+					
+					    </section>
+					</div>
+					<div class="container education-container">
+					    <div class="title">
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Aix-Marseille School of Economics - Marseille
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2012</span>
+					                        <span class="endDate"> - 01/2013</span>
+					                </h5>
+					            </div>
+					            <h4>Master II Economètrie Spécialité Statistiques et Modèles Economiques</h4>
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Université Lumière Lyon II - Lyon 
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2011</span>
+					                        <span class="endDate"> - 01/2012</span>
+					                </h5>
+					            </div>
+					            <h4>Master II Etudes Quantitatives et Décision Economique</h4>
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Université Lumière Lyon II - Lyon 
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">01/2010</span>
+					                        <span class="endDate"> - 01/2011</span>
+					                </h5>
+					            </div>
+					            <h4>Master I Economie Quantitative et Décision Stratégique</h4>
+					
+					
+					        </section>
+					</div>
+					<div class="container references-container">
+					    <div class="title">
+					        <h3>References</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item clearfix">
+					            <i class="fa fa-quote-left pull-left" aria-hidden="true"></i>
+					            <blockquote>
+					                bon stagiaire, très investi dans le travail avec un bon niveau de connaissance de la programmation WEB.
+					            </blockquote>
+					
+					            <h5 class="pull-right"> — Fallou DIA</h5>
+					        </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
