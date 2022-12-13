@@ -31,7 +31,7 @@ jobs:
     - run: mkdir public
     - run: mv resume.html public/index.html
     - name: Upload artifact
-      uses: actions/upload-artifact@master
+      uses: actions/upload-artifact@v3
       with:
         name: public
         path: public
