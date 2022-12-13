@@ -30,3 +30,8 @@ jobs:
     - run: npx resumed render resume.json --theme caffeine
     - run: mkdir public
     - run: mv resume.html public/index.html
+    - name: Upload artifact
+      uses: actions/upload-artifact@master
+      with:
+        name: public
+        path: public
