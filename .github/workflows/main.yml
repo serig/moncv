@@ -30,8 +30,7 @@ jobs:
     - run: npx resumed render resume.json --theme caffeine
     - run: mkdir public
     - run: mv resume.html public/index.html
-    - name: Upload artifact
-      uses: actions/upload-artifact@v3
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        name: public
-        path: public
+        folder: build # The folder the action should deploy.
